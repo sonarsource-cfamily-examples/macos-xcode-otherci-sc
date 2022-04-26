@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# SonarCloud needs a full clone to work correctly but some CIs perform shallow clones
+# so we first need to make sure that the source repository is complete
+git fetch --unshallow
+
 SONAR_HOST_URL=https://sonarcloud.io
 #SONAR_TOKEN= # Access token coming from SonarCloud projet creation page. In this example, it is defined in the environement through a Github secret.
 export SONAR_SCANNER_VERSION="4.6.1.2450" # Find the latest version in the "Mac OS" link on this page:
