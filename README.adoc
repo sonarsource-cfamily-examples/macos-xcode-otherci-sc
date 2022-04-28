@@ -17,6 +17,9 @@ The `build-analyze.sh` script demonstrates how to run an analysis on a C++ proje
 
 You can take a look at the script link:build-analyze.sh[build-analyze.sh] of this project to see it in practice.
 
+:note-caption: :bulb:
+NOTE: This example works with SonarQube too: set the property `sonar.host.url` to the URL of your SonarQube server and download the Build Wrapper from your SonarQube server.
+
 = Documentation
 
 - https://docs.sonarcloud.io/advanced-setup/languages/c-c-objective-c/[Documentation of the C, C++ and Objective-C plugin and its Build Wrapper]
