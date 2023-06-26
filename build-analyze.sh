@@ -6,7 +6,7 @@ git fetch --unshallow
 
 SONAR_HOST_URL=https://sonarcloud.io
 #SONAR_TOKEN= # Access token coming from SonarCloud projet creation page. In this example, it is defined in the environement through a Github secret.
-export SONAR_SCANNER_VERSION="4.6.1.2450" # Find the latest version in the "Mac OS" link on this page:
+export SONAR_SCANNER_VERSION="4.8.0.2856" # Find the latest version in the "Mac OS" link on this page:
                                           # https://docs.sonarcloud.io/advanced-setup/ci-based-analysis/sonarscanner-cli/
 export BUILD_WRAPPER_OUT_DIR="build_wrapper_output_directory" # Directory where build-wrapper output will be placed
 
